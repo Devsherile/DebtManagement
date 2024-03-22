@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import MainLayout from './layout/MainLayout'
 import Navbar from './layout/Navbar'
+import Register from './pages/authentication/Register'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
     <MainLayout/>
     <Navbar/>
+    <Register/>
     </>
   )
 }
