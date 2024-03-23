@@ -1,23 +1,64 @@
-#register{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f5f5f5;
+#register {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 500px;
+  background-color: #e8dfdf;
+  margin: 0 auto;
+  margin-top: 20px;
+  justify-content: start;
+  align-items: start;
+  box-sizing: border-box;
 }
-.register{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.register {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px 20px 20px;
+  font-size: larger;
 }
-.register h1{
-    margin-right: 20px;
-    margin-left: 20px;
-    color: blue;
+.register h1 {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: blue;
 }
-.label{
-    display: flex;
-    flex-direction: column;
-    /* gap: 5px; */
+.register h3 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: x-large;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: large;
+  text-align: left;
+}
+input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 450px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.label label {
+    margin-bottom: 8px;
+    margin-left: 10px;
+
+  }
+.label button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 450px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(71, 71, 239);
+  background-color: white;
+  color: #6ec7ea;
+}
+button:hover {
+  background-color: blue;
+  color: white;
 }

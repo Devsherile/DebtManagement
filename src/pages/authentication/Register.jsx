@@ -8,10 +8,10 @@ function Register() {
         <h3>Register</h3>
       </div>
       <div className="label">
+        <label htmlFor="email">Email</label>
         <input type="text" />
-        <label>Email</label>
+        <label htmlFor="password">Password</label>
         <input type="password" />
-        <label>Password</label>
         <button>Register</button>
       </div>
     </div>
