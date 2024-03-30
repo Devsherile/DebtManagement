@@ -1,9 +1,14 @@
 import React from "react";
 import "./Register.css";
+import { FaLock } from "react-icons/fa";
+import MainLayout from "../../layout/MainLayout";
 function Register() {
   return (
     <div id="register">
       <div className="register">
+        <div className="icon">
+          <FaLock />
+        </div>
         <h1>Client Panel</h1>
         <h3>Register</h3>
       </div>
@@ -18,4 +23,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default MainLayout(Register);

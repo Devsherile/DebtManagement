@@ -10,7 +10,7 @@ function Navbar() {
       </div>
       <ul>
       <li>
-        <a href="/">Register</a>
+        <a href="/register">Register</a>
       </li>
       <li>
         <a href="/">Login</a>

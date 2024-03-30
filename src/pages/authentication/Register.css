@@ -1,20 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
 #register {
   display: flex;
   flex-direction: column;
   height: 350px;
   width: 500px;
-  background-color: #e8dfdf;
+  background-color: white;
   margin: 0 auto;
   margin-top: 20px;
   justify-content: start;
   align-items: start;
   box-sizing: border-box;
+  border: 1px solid #ccc;
 }
 .register {
   display: flex;
   flex-direction: row;
   margin: 20px 20px 20px 20px;
   font-size: larger;
+}
+.icon{
+  margin-top: 8px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: blue;
+
 }
 .register h1 {
   margin-right: 20px;
@@ -32,8 +47,10 @@
   flex-direction: column;
   margin-top: 5px;
   margin-left: 20px;
+  text-align: center;
+  /* justify-content: start; */
   font-size: large;
-  text-align: left;
+  /* text-align: left; */
 }
 input {
   margin-top: 5px;
@@ -45,8 +62,8 @@ input {
 }
 .label label {
     margin-bottom: 8px;
-    margin-left: 10px;
-
+    margin-left: -50px;
+    text-align: start;
   }
 .label button {
   margin-top: 5px;

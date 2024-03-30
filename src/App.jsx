@@ -5,15 +5,15 @@ import './App.css'
 import MainLayout from './layout/MainLayout'
 import Navbar from './layout/Navbar'
 import Register from './pages/authentication/Register'
+import Login from './pages/authentication/Login'
+import AppRouter from './router/AppRouter'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <MainLayout/>
-    <Navbar/>
-    <Register/>
+ <AppRouter />
     </>
   )
 }
