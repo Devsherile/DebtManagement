@@ -20,22 +20,27 @@
   
   .panel h1 {
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 140px;
+  }
+  .panel h3{
+    color: rgb(134, 131, 131);
   }
   
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-right: 140px;
   }
   
   li {
     display: inline;
     margin-right: 20px;
+    font-size: larger;
   }
   
   a {
-    color: white;
+    color: rgb(134, 131, 131);
     text-decoration: none;
   }
   

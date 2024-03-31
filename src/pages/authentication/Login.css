@@ -28,7 +28,7 @@
 .login h1 {
     margin-right: 20px;
     margin-left: 20px;
-    color: blue;
+    color: #0091ff;
     margin-top: 8px;
 }
 .login h3 {
@@ -36,4 +36,28 @@
     align-items: center;
     margin-top: 15px;
     font-size: x-large;
+}
+.login input {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login button {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0091ff;
+    color: white;
+}
+.label input{
+    justify-content: center;
+    align-items: center;
 }

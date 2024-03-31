@@ -28,13 +28,13 @@
   margin-top: 8px;
   margin-left: 20px;
   font-size: 30px;
-  color: blue;
+  color: #0091ff;
 
 }
 .register h1 {
   margin-right: 20px;
   margin-left: 20px;
-  color: blue;
+  color: #0091ff;
 }
 .register h3 {
   justify-content: center;
@@ -59,7 +59,11 @@ input {
   height: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  padding-left: 10px;
+  outline-color: #0091ff;
 }
+
+  
 .label label {
     margin-bottom: 8px;
     margin-left: -50px;
@@ -71,11 +75,11 @@ input {
   width: 450px;
   height: 40px;
   border-radius: 5px;
-  border: 1px solid rgb(71, 71, 239);
+  border: 1px solid #0091ff;
   background-color: white;
   color: #6ec7ea;
 }
 button:hover {
-  background-color: blue;
+  background-color: #0091ff;
   color: white;
 }
